@@ -6,7 +6,7 @@ This document provides the database design specification for the ALX Airbnb proj
 
 ## ER Diagram
 
-![ER Diagram](./ERD.png)
+![ER Diagram](./airbnb_er_diagram.png)
 
 > The diagram illustrates how Users, Properties, Bookings, Reviews, and other core components interact within the system.
 
