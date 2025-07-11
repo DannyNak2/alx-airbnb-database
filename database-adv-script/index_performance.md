@@ -12,10 +12,10 @@ These columns are frequently used in JOINs, WHERE, and ORDER BY clauses, making 
 ## Performance Measurement
 
 Before indexing:
-SELECT * FROM bookings WHERE user_id = 5;
-After indexing:
-SELECT * FROM bookings WHERE user_id = 5;
+EXPLAIN ANALYZE SELECT * FROM bookings WHERE user_id = 5;
 
+After indexing:
+EXPLAIN ANALYZE SELECT * FROM bookings WHERE user_id = 5;
 
 ### Result
 Execution time dropped from **75ms to 12ms**, showing noticeable performance improvement.
